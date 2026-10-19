@@ -1,0 +1,9 @@
+{
+  "periodo": "",
+  "fuentes": {
+    "horarios": "datos/horarios.csv",
+    "ambientes": "datos/ambientes.csv",
+    "secciones": "datos/carreras_seccion.csv"
+  },
+  "nota": "Para usar Google Sheets: reemplaza cada ruta por el enlace CSV de la hoja publicada (Archivo > Compartir > Publicar en la web > CSV). Si dejas una ruta tal cual, se lee el archivo de esta carpeta. 'periodo' es opcional: si lo dejas vacío se toma de la hoja Horarios."
+}
