@@ -1,0 +1,4 @@
+Aqui van los archivos descargados del sistema (SIN modificar):
+  - principal.xlsm   (listado de programas)
+  - adma.xlsm, admi.xlsm, ... (un .xlsm por programa; los que vienen dentro de CURSOS_2026.zip)
+Luego ejecuta herramientas/actualizar.bat
