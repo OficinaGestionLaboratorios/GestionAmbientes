@@ -1,0 +1,20 @@
+:root{--bg:#f5f6f7;--card:#fff;--ink:#32363a;--mut:#6a6d70;--pri:#0a6ed1;--shell:#354a5f;--line:#e0e4e8;--warn:#fff8f0;--warnb:#e9730c;--ok:#107e3e}
+@media(prefers-color-scheme:dark){:root{--bg:#12171c;--card:#1d242b;--ink:#eaecee;--mut:#9aa5ae;--pri:#4db1ff;--shell:#0b0f13;--line:#2f3a44;--warn:#2a2118;--warnb:#e9730c;--ok:#5fd38d}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 Arial,Helvetica,sans-serif}
+header{background:var(--shell);color:#fff;height:44px;display:flex;align-items:center;gap:12px;padding:0 16px}
+.logo{width:26px;height:26px;border-radius:6px;background:#0a6ed1;display:grid;place-items:center;font-weight:700}
+h1{font-size:15px;margin:0;font-weight:600}.tbtn{margin-left:auto;color:#fff;text-decoration:none;font-size:12px;background:rgba(255,255,255,.15);padding:4px 10px;border-radius:12px}
+main{max-width:980px;margin:24px auto;padding:0 16px;display:grid;gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:20px}
+h2{font-size:16px;margin:0 0 8px;color:var(--pri)}h3{font-size:14px;margin:18px 0 8px}p{margin:6px 0}.mut{color:var(--mut)}
+.drop{display:grid;place-items:center;border:2px dashed var(--line);border-radius:10px;padding:34px 16px;margin-top:12px;cursor:pointer;color:var(--mut);text-align:center}
+.drop:hover,.drop.on{border-color:var(--pri);color:var(--pri)}.drop input{display:none}
+.est{margin-top:10px;color:var(--mut);font-size:13px;min-height:18px}
+.acc{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0}
+button{font:inherit;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:8px;padding:8px 14px;cursor:pointer}
+button:hover{border-color:var(--pri)}button.pri{background:var(--pri);border-color:var(--pri);color:#fff}
+.kpis{display:flex;gap:10px;flex-wrap:wrap;margin:10px 0}.kpi{border:1px solid var(--line);border-radius:8px;padding:8px 14px}.kpi b{display:block;font-size:20px;color:var(--ok)}
+.warn{background:var(--warn);border:1px solid var(--warnb);border-radius:8px;padding:10px 14px;margin:8px 0;font-size:13px}
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:8px}table{border-collapse:collapse;width:100%;font-size:12px;white-space:nowrap}
+th,td{padding:5px 8px;border-bottom:1px solid var(--line);text-align:left}th{background:var(--bg);position:sticky;top:0}
+footer{text-align:center;color:var(--mut);font-size:12px;padding:20px 16px}
