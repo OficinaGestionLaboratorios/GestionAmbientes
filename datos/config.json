@@ -1,9 +1,0 @@
-{
-  "periodo": "",
-  "fuentes": {
-    "horarios": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQScOTVDI48qaZjvcDXRYjkXYO819CcJ2sy3AKKJtbXjWZYdDLAsamx6JDNvBnFlC6Q-e4k9-akFyUX/pub?gid=0&single=true&output=csv",
-    "ambientes": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQScOTVDI48qaZjvcDXRYjkXYO819CcJ2sy3AKKJtbXjWZYdDLAsamx6JDNvBnFlC6Q-e4k9-akFyUX/pub?gid=922474966&single=true&output=csv",
-    "secciones": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQScOTVDI48qaZjvcDXRYjkXYO819CcJ2sy3AKKJtbXjWZYdDLAsamx6JDNvBnFlC6Q-e4k9-akFyUX/pub?gid=1643933292&single=true&output=csv"
-  },
-  "nota": "Para usar Google Sheets: reemplaza cada ruta por el enlace CSV de la hoja publicada (Archivo > Compartir > Publicar en la web > CSV). Si dejas una ruta tal cual, se lee el archivo de esta carpeta. 'periodo' es opcional: si lo dejas vacío se toma de la hoja Horarios."
-}
